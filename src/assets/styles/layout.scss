@@ -1,0 +1,7 @@
+$section-vertical-spacing: 7.5rem;
+$content-max-width: 750px;
+
+.container {
+    margin: $section-vertical-spacing auto;
+    max-width: $content-max-width;
+}
