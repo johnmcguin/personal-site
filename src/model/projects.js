@@ -1,26 +1,61 @@
+let express = 'Express';
+let mongodb = 'MongoDB';
+let angular = 'Angular';
+let swift = 'Swift';
+let node = 'Node.js';
+let lodash = 'Lodash';
+let jquery = 'jQuery';
+let less = 'Less.js';
+let sass = 'Sass';
+let mithril = 'Mithril.js';
+
 const projects = [
     {
-        name: "Enli Health Intelligence",
+        title: "Enli Health Intelligence",
+        subTitle: 'enli description',
+        description: 'some classy description',
+        img: 'http://via.placeholder.com/350x350',
+        technologies: [jquery, less, mithril],
         id: 1,
     },
     {
-        name: "Common",
+        title: "Common",
+        subTitle: 'common description',
+        description: 'some classy description',
+        img: 'http://via.placeholder.com/350x350',
+        technologies: [jquery, less],
         id: 2,
     },
     {
-        name: "Oceanic Preservation Society",
+        title: "Oceanic Preservation Society",
+        subTitle: 'ops description',
+        description: 'some classy description',
+        img: 'http://via.placeholder.com/350x350',
+        technologies: [jquery, less],
         id: 3,
     },
     {
-        name: "HDS Doorways",
+        title: "HDS Doorways",
+        subTitle: 'doorways description',
+        description: 'some classy description',
+        img: 'http://via.placeholder.com/350x350',
+        technologies: [angular, less, mongodb, express, node, lodash],
         id: 4,
     },
     {
-        name: "HDS Inspections iOS",
+        title: "HDS Inspections iOS",
+        subTitle: 'inspections description',
+        description: 'some classy description',
+        img: 'http://via.placeholder.com/350x350',
+        technologies: [swift],
         id: 5,
     },
     {
-        name: "HDS Work Orders iOS",
+        title: "HDS Work Orders iOS",
+        subTitle: 'work order description',
+        description: 'some classy description',
+        img: 'http://via.placeholder.com/350x350',
+        technologies: [swift],
         id: 6
     }
 ];
