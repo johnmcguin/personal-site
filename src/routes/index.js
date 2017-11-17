@@ -15,6 +15,6 @@ const routes = [
 ];;
 
 export default new Router({
-    mode: 'history', // prevents the ugly # in the url
+    mode: 'history', // prevents the # in the url
     routes
 });
