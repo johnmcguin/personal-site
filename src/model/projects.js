@@ -8,15 +8,25 @@ let jquery = 'jQuery';
 let less = 'Less.js';
 let sass = 'Sass';
 let mithril = 'Mithril.js';
+let stripe = 'Stripe';
 
 const projects = [
     {
-        title: "Enli Health Intelligence",
-        subTitle: 'enli description',
+        title: "HDS Doorways",
+        subTitle: 'doorways description',
         description: 'some classy description',
         img: 'http://via.placeholder.com/350x350',
-        technologies: [jquery, less, mithril],
+        // href: 'dev.hdsdoorways.com',
+        technologies: [angular, less, mongodb, express, node, lodash],
         id: 1,
+    },
+    {
+        title: "Oceanic Preservation Society",
+        subTitle: 'ops description',
+        description: 'some classy description',
+        img: 'http://via.placeholder.com/350x350',
+        technologies: [jquery, less, node, express, stripe],
+        id: 2,
     },
     {
         title: "Common",
@@ -24,22 +34,14 @@ const projects = [
         description: 'some classy description',
         img: 'http://via.placeholder.com/350x350',
         technologies: [jquery, less],
-        id: 2,
-    },
-    {
-        title: "Oceanic Preservation Society",
-        subTitle: 'ops description',
-        description: 'some classy description',
-        img: 'http://via.placeholder.com/350x350',
-        technologies: [jquery, less],
         id: 3,
     },
     {
-        title: "HDS Doorways",
-        subTitle: 'doorways description',
+        title: "Enli Health Intelligence",
+        subTitle: 'enli description',
         description: 'some classy description',
         img: 'http://via.placeholder.com/350x350',
-        technologies: [angular, less, mongodb, express, node, lodash],
+        technologies: [mithril, jquery, less],
         id: 4,
     },
     {
