@@ -8,8 +8,8 @@ import Services from '../components/Services.vue'
 Vue.use(Router);
 
 const routes = [
-    { path: '/', name: 'Home', component: Home },
-    { path: '/about', name: 'About', component: About },
+    { path: '/', name: 'About', component: About },
+    // { path: '/about', name: 'About', component: About },
     { path: '/portfolio', name: 'Portfolio', component: Portfolio },
     { path: '/services', name: 'Services', component: Services }
 ];;
