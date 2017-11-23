@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Portfolio of Works</h1>
-    <div class="grid">
+    <div class="grid--projects">
       <div class="project" v-for="project in projects" v-bind:key="project.id">
         <div class="img" v-bind:style="{ backgroundImage: 'url(' + project.img + ')'}"></div>
 
@@ -35,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
-.grid {
+.grid--projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   grid-gap: 2rem;
