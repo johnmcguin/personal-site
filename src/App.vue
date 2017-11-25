@@ -1,24 +1,25 @@
 <template>
   <div id="app">
-    <nav>
-      <ul>
-        <!-- <li><router-link to="/about">About</router-link></li> -->
-        <li><router-link to="/portfolio">Portfolio</router-link></li>
-        <li><router-link to="/services">Services</router-link></li>
-      </ul>
-    </nav>
-
+    <!-- nav -->
+    <navigation></navigation>
+    <!-- main -->
     <div class="container">
       <transition name="page-turn">
         <router-view></router-view>
       </transition>
     </div>
   </div>
+  <!-- TODO: Footer -->
 </template>
 
 <script>
+import navigation from './components/Nav.vue';
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    navigation
+  }
 }
 </script>
 
@@ -38,5 +39,6 @@ export default {
   font-size: 1.8rem;
   margin: auto;
   line-height: 1.5;
+  max-width: $content-max-width;
 }
 </style>

@@ -44,22 +44,22 @@ const projects = [
         technologies: [mithril, jquery, less],
         id: 4,
     },
-    {
-        title: "HDS Inspections iOS",
-        subTitle: 'inspections description',
-        description: 'some classy description',
-        img: 'http://via.placeholder.com/350x350',
-        technologies: [swift],
-        id: 5,
-    },
-    {
-        title: "HDS Work Orders iOS",
-        subTitle: 'work order description',
-        description: 'some classy description',
-        img: 'http://via.placeholder.com/350x350',
-        technologies: [swift],
-        id: 6
-    }
+    // {
+    //     title: "HDS Inspections iOS",
+    //     subTitle: 'inspections description',
+    //     description: 'some classy description',
+    //     img: 'http://via.placeholder.com/350x350',
+    //     technologies: [swift],
+    //     id: 5,
+    // },
+    // {
+    //     title: "HDS Work Orders iOS",
+    //     subTitle: 'work order description',
+    //     description: 'some classy description',
+    //     img: 'http://via.placeholder.com/350x350',
+    //     technologies: [swift],
+    //     id: 6
+    // }
 ];
 
 export default projects;
