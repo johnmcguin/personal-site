@@ -44,6 +44,7 @@ export default {
         padding: 1rem;
         position: relative;
         text-transform: uppercase;
+        font-size: 1.25rem;
 
         &:after {
             position: absolute;
