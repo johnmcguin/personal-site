@@ -49,8 +49,9 @@ export default {
             position: absolute;
             content: '';
             transition: all .5s ease;
-            width: 1px;
-            height: 2px;
+            transform: scaleX(0);
+            width: 100%;
+            height: 1px;
             text-align: left;
             bottom: 0;
             left: 0;
@@ -58,8 +59,9 @@ export default {
 
         &:hover:after, &.router-link-active:after {
             background-color: $forest-green;
-            transition: width .5s ease;
-            width: 100%;
+            transition: all .5s ease;
+            transform: scaleX(1);
+            visibility: visible;
         }
     }
 }
