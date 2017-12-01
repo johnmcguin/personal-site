@@ -5,6 +5,12 @@
     <div class="body-border"></div>
     <div class="body-border"></div>
     <div class="body-border"></div>
+    <!-- What to Include -->
+    <!-- your name and picture
+    a little bit about who you are
+    your contact details
+    recent work
+    your skills -->
     <!-- nav -->
     <navigation></navigation>
     <!-- main -->

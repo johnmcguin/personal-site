@@ -2,9 +2,9 @@
   <div class="about">
     <p>
       The Way Software Development specializes in web and mobile development, 
-      valuing simplicity, elegance, functionality, and beautiful UI above all. 
+      valuing simplicity, elegance, functionality, and beautiful UX / UI above all. 
       I can help provide solutions for web sites, web applications, 
-      mobile applications, online stores, CMS's, etc. 
+      mobile applications, online stores, CMS's, and more.
     </p>
   </div>
 </template>
