@@ -44,6 +44,14 @@ const projects = [
         technologies: [mithril, jquery, less],
         id: 4,
     },
+    {
+        title: "Camera Goat",
+        subTitle: 'Camera Goat description',
+        description: 'some classy description',
+        img: 'http://via.placeholder.com/350x350',
+        technologies: [jquery, less],
+        id: 5,
+    },
     // {
     //     title: "HDS Inspections iOS",
     //     subTitle: 'inspections description',

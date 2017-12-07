@@ -11,7 +11,6 @@
             <p>{{project.description}}</p>
           </div>
           <ul>
-            <li>Tech Stack:</li>
             <li v-for="(tech, idx) in project.technologies" v-bind:key="idx">
               {{tech}}<span v-if="idx + 1 < project.technologies.length">, </span>
             </li>
