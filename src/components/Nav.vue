@@ -109,24 +109,43 @@ export default {
   }
 
   svg {
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.1));
+    transition: filter 5s ease;
+
     path {
       stroke-dasharray: 500;
       stroke-dashoffset: 500;
       animation: draw 5s linear forwards;
     }
 
-    &:hover path {
-      animation: draw 5s alternate infinite;
+    &:hover {
+      filter: drop-shadow(0px 0px 35px rgba(0,0,0,0.5));
+      transition: filter 5s ease;
+
+      path {
+        animation: draw 4s alternate infinite;
+      }
+    } 
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 10px;
+      box-shadow: 0 50px 40px rgba(0,0,0,0.5);
+      background: transparent;
+      border-radius: 100px/50px;
     }
   }
 
   @keyframes draw {
     0% {
         stroke-dashoffset: 500;
+        fill: $forest-green;
     }
+
     100% {
       stroke-dashoffset: 0;
-      fill: #fff410;
+      fill: $yellow;
     }
   }
 }
