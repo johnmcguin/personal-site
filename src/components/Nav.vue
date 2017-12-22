@@ -140,12 +140,12 @@ export default {
   @keyframes draw {
     0% {
         stroke-dashoffset: 500;
-        fill: $forest-green;
+        fill: $yellow;
     }
 
     100% {
       stroke-dashoffset: 0;
-      fill: $yellow;
+      fill: $forest-green;
     }
   }
 }
