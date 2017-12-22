@@ -28,7 +28,7 @@ const projects = [
     {
         title: "Common",
         description: 'Customized CMS template with blog. "COMMON accelerates the launch and growth of businesses that take care of the planet and all the creatures on it"',
-        img: 'https://res.cloudinary.com/dsne543uh/image/upload/v1513897092/common.jpg',
+        img: 'https://res.cloudinary.com/dsne543uh/image/upload/v1513897092/common_2.jpg',
         technologies: [jquery, less],
         id: 3,
     },
