@@ -79,9 +79,11 @@ export default {
   }
 
   .content {
+    color: white;
+    text-align: left;
+    padding: 1rem;
     opacity: 0;
-    transition: all .5s ease;
-    transition-delay: .5s;
+    transition: opacity .5s ease;
   }
 
   &:hover {
@@ -98,11 +100,8 @@ export default {
     }
 
     .content {
-      color: white;
-      text-align: left;
-      padding: 1rem;
       opacity: 1;
-      transition: all .5s ease;
+      transition: opacity .5s ease;
       transition-delay: .5s;
     }
   }
