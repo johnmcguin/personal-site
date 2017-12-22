@@ -7,14 +7,18 @@
         <div class="description">
           <div>
             <h3>{{project.title}}</h3>
-            <h6>{{project.subTitle}}</h6>
-            <p>{{project.description}}</p>
           </div>
           <ul>
             <li v-for="(tech, idx) in project.technologies" v-bind:key="idx">
               {{tech}}<span v-if="idx + 1 < project.technologies.length">, </span>
             </li>
           </ul>
+        </div>
+        <div class="mask">
+          <div class="content">
+            <h4>{{project.title}}</h4>
+            <p>{{project.description}}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -40,16 +44,21 @@ export default {
 }
 
 .project {
+  position: relative;
   box-shadow: 0px 0px 2px 0px rgba(150, 150, 150, 0.9);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
+  &:nth-child(4) {
+    grid-column: 1/3;
+  }
+
   .img {
     width: 100%;
     height: 125px;
     background-size: cover;
-    background-position: center center;
+    background-repeat: no-repeat;
   }
 
   .description {
@@ -59,6 +68,43 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .mask {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    background-color: transparent;
+    transition: all .5s ease;
+  }
+
+  .content {
+    opacity: 0;
+    transition: all .5s ease;
+    transition-delay: .5s;
+  }
+
+  &:hover {
+    .mask {
+      height: auto;
+      display: flex;
+      align-items: center;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0,0,0, .8);
+      transition: all .5s ease;
+    }
+
+    .content {
+      color: white;
+      text-align: left;
+      padding: 1rem;
+      opacity: 1;
+      transition: all .5s ease;
+      transition-delay: .5s;
+    }
   }
 
   h3, h6 {

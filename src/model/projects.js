@@ -13,61 +13,39 @@ let stripe = 'Stripe';
 const projects = [
     {
         title: "HDS Doorways",
-        subTitle: 'doorways description',
-        description: 'some classy description',
-        img: 'http://via.placeholder.com/350x350',
-        // href: 'dev.hdsdoorways.com',
+        description: 'MEAN stack enterprise application for the Indian housing industry.',
+        img: 'https://res.cloudinary.com/dsne543uh/image/upload/v1513897092/doorways.jpg',
         technologies: [angular, less, mongodb, express, node, lodash],
         id: 1,
     },
     {
         title: "Oceanic Preservation Society",
-        subTitle: 'ops description',
-        description: 'some classy description',
-        img: 'http://via.placeholder.com/350x350',
+        description: 'Customized CMS template with shop, blog, and customized donation system built with Stripe and Node.js',
+        img: 'https://res.cloudinary.com/dsne543uh/image/upload/v1513897092/ops.jpg',
         technologies: [jquery, less, node, express, stripe],
         id: 2,
     },
     {
         title: "Common",
-        subTitle: 'common description',
-        description: 'some classy description',
-        img: 'http://via.placeholder.com/350x350',
+        description: 'Customized CMS template with blog. "COMMON accelerates the launch and growth of businesses that take care of the planet and all the creatures on it"',
+        img: 'https://res.cloudinary.com/dsne543uh/image/upload/v1513897092/common.jpg',
         technologies: [jquery, less],
         id: 3,
     },
     {
         title: "Enli Health Intelligence",
-        subTitle: 'enli description',
-        description: 'some classy description',
-        img: 'http://via.placeholder.com/350x350',
+        description: 'Customized CMS template with suite of sites including a blog for health care community',
+        img: 'https://res.cloudinary.com/dsne543uh/image/upload/v1513897092/enli.jpg',
         technologies: [mithril, jquery, less],
         id: 4,
     },
     {
         title: "Camera Goat",
-        subTitle: 'Camera Goat description',
-        description: 'some classy description',
-        img: 'http://via.placeholder.com/350x350',
+        description: 'Customized CMS template with online shop for Camera Goat, based in Boulder, CO',
+        img: 'https://res.cloudinary.com/dsne543uh/image/upload/v1513897092/goat.jpg',
         technologies: [jquery, less],
         id: 5,
-    },
-    // {
-    //     title: "HDS Inspections iOS",
-    //     subTitle: 'inspections description',
-    //     description: 'some classy description',
-    //     img: 'http://via.placeholder.com/350x350',
-    //     technologies: [swift],
-    //     id: 5,
-    // },
-    // {
-    //     title: "HDS Work Orders iOS",
-    //     subTitle: 'work order description',
-    //     description: 'some classy description',
-    //     img: 'http://via.placeholder.com/350x350',
-    //     technologies: [swift],
-    //     id: 6
-    // }
+    }
 ];
 
 export default projects;
