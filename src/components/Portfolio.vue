@@ -18,6 +18,7 @@
           <div class="content">
             <h4>{{project.title}}</h4>
             <p>{{project.description}}</p>
+            <a v-if="project.href" v-bind:href="project.href" target="_blank">View Project</a>
           </div>
         </div>
       </div>
@@ -27,7 +28,6 @@
 
 <script>
 import projects from "../model/projects";
-
 export default {
   name: "Portfolio",
   data() {
@@ -37,6 +37,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/styles/colors.scss";
 .grid--projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
@@ -103,10 +104,15 @@ export default {
       opacity: 1;
       transition: opacity .5s ease;
       transition-delay: .5s;
+
+      a {
+        border: 1px solid $forest-green;
+        padding: 1rem;
+      }
     }
   }
 
-  h3, h6 {
+  h3, h6, h4 {
     text-align: left;
     margin: 0px;
   }
