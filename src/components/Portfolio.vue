@@ -51,10 +51,6 @@ export default {
   flex-direction: column;
   align-items: flex-start;
 
-  &:nth-child(4) {
-    grid-column: 1/3;
-  }
-
   .img {
     width: 100%;
     height: 125px;
@@ -108,6 +104,13 @@ export default {
       a {
         border: 1px solid $forest-green;
         padding: 1rem;
+        transition: all .5s ease;
+
+        &:hover {
+          background-color: $forest-green;
+          color: white;
+          transition: all .5s ease;
+        }
       }
     }
   }
