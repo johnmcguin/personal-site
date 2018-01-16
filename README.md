@@ -1,8 +1,8 @@
 # personal-site
 
-> A personal site to showcase my portfolio and services offered
+> A personal site to showcase my personal portfolio
 
-## Build Setup
+<!-- ## Build Setup
 
 ``` bash
 # install dependencies
@@ -13,6 +13,6 @@ npm run dev
 
 # build for production with minification
 npm run build
-```
+``` -->
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+<!-- For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader). -->
