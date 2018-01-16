@@ -1,10 +1,10 @@
 <template>
   <div class="about">
     <p>
-      Hey, I'm John and I specialize in web and mobile development,  
-      valuing simplicity, elegance, functionality, intuitive UX, and beatiful UI. 
-      I consider myself a Jack of all trades, and pursue mastery in modern front-end web development. 
-      Let's work together to solve your problems and create something great!
+      Hello, my name is John McGuin. I work as a software developer operating as The Way Software Development, LLC. 
+      I specialize in web and mobile development, valuing simplicity, elegance, functionality, 
+      intuitive UX, and beatiful UI. I consider myself a Jack of all trades, and pursue mastery 
+      in modern front-end web development. Let's work together solving real world problems and create something great!
     </p>
   </div>
 </template>
